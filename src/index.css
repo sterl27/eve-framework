@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --font-geist: 'Geist', system-ui, sans-serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  
+  --surface: #121414;
+  --surface-dim: #121414;
+  --on-surface: #e3e2e2;
+  --primary: #aec6ff;
+  --primary-container: #0070f3;
+  --secondary: #dbb8ff;
+  --tertiary: #ffb1c5;
+  --outline: #8b90a0;
+  --outline-variant: #414754;
+}
+
+body {
+  font-family: var(--font-inter);
+  background: var(--surface);
+  color: var(--on-surface);
+}
+
+.font-headline-md {
+  font-family: var(--font-geist);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.font-label-caps {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
